@@ -1,0 +1,32 @@
+* {
+    font-family: 'Raleway', sans-serif;
+}
+
+body {
+    max-width: 1400px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: auto;
+}
+
+#navbar {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid red;
+    height: 60px;
+    align-items: flex-end;
+}
+
+#navbar img {
+    width: 60px;
+}
+
+#navlinks {
+    display: flex;
+    justify-content: space-between;
+    width: 220px;
+}
+
+#navlinks a {
+    text-decoration: none;
+}
