@@ -18,31 +18,32 @@
         <nav id="navbar">
             <a> <img src="images/logo/Booki.png" alt="logo booki"> </a>
             <div id="navlinks">
-                <a id="link-1" href="">Hébergements</a>
-                <a id="link-2" href="">Activités</a>
+                <a href="">Hébergements</a>
+                <a href="">Activités</a>
             </div>
         </nav>
-        <div class="HeaderTitle">
-            <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
-            <p>En plein centre-ville ou en pleine nature</p>
-        </div>
-        <form>
-            <div>
+        <h1 id="HeaderTitle">Trouvez votre hébergement pour des vacances de rêve</h1>
+        <p id="HeaderSubtitle">En plein centre-ville ou en pleine nature</p>
+        <form id="SearchBar">
+            <div id="Location">
                 <i class="fa-solid fa-location-dot"></i>
             </div>
-            <input type="search" placeholder="Marseille, France">
-            <button>Rechercher</button>
+            <input id="SearchText" type="search" value="Marseille, France">
+            <button id="SearchButton">Rechercher</button>
         </form>
-        <div>
+        <div id="Filters">
             <p>Filtres</p>
-            <ul>
-                <li><i class="fa-solid fa-money-bill-wave"></i>Économique</li>
-                <li><i class="fa-solid fa-person"></i>Familial</li>
-                <li><i class="fa-solid fa-heart"></i>Romantique</li>
-                <li><i class="fa-solid fa-dog"></i>Animaux autorisés</li>
+            <ul id="FilterList">
+                <li class="Filter"><i class="fa-solid fa-money-bill-wave"></i>Économique</li>
+                <li class="Filter"><i class="fa-solid fa-person"></i>Familial</li>
+                <li class="Filter"><i class="fa-solid fa-heart"></i>Romantique</li>
+                <li class="Filter"><i class="fa-solid fa-dog"></i>Animaux autorisés</li>
             </ul>
         </div>
-        <p><i class="fa-solid fa-info"></i>Plus de 500 logements sont disponibles dans cette ville</p>
+        <div id="info">
+            <i class="fa-solid fa-info"></i>
+            <p>Plus de 500 logements sont disponibles dans cette ville</p>
+        </div>
     </header>
     <main>
         <section>
@@ -203,23 +204,23 @@
     </main>
     <footer>
         <div>
-            <h3>À propos</h3>
-            <ul>
+            <ul class="FooterList">
+                <li><h3>À propos</h3></li>
                 <li><a href="">Fonctionnement du site</a></li>
                 <li><a href="">Conditions générales</a></li>
                 <li><a href="">Données et confidentialité</a></li>
             </ul>
         </div>
         <div>
-            <h3>Nos hébergements</h3>
-            <ul>
+            <ul class="FooterList">
+                <li><h3>Nos hébergements</h3></li>
                 <li><a href="">Charte qualité</a></li>
                 <li><a href="">Proposer votre hôtel</a></li>
             </ul>
         </div>
         <div>
-            <h3>Assistance</h3>
-            <ul>
+            <ul class="FooterList">
+                <li><h3>Assistance</h3></li>
                 <li><a href="">Centre d'aide</a></li>
                 <li><a href="">Nous contacter</a></li>
             </ul>
