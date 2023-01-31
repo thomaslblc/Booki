@@ -205,6 +205,7 @@ h1 {
     margin-bottom: 5px;
     height: min-content;
     padding-bottom: 5px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 10%);
 }
 
 #Hosting article img {
@@ -242,6 +243,16 @@ h1 {
     font-size: 12px;
 }
 
+#More a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+#More a:hover {
+    text-decoration: underline;
+}
+
 .starblue {
     color: #0065fc;
 }
@@ -271,6 +282,7 @@ h1 {
     border-radius: 25px;
     padding: 5px;
     margin-bottom: 30px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 10%);
 }
 
 .PopularSubtitle {
@@ -278,6 +290,11 @@ h1 {
     display: flex;
     justify-content: space-between;
     flex-direction: column;
+}
+
+.PopularSubtitle p {
+    font-size: 15px;
+    padding-top: 5px;
 }
 
 #Popular article p {
@@ -307,6 +324,43 @@ h1 {
 #Popular article span {
     font-size: 12px;
     padding-bottom: 3px;
+}
+
+#Activities {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    justify-content: space-between;
+}
+
+#Activities h2 {
+    width: 100%;
+}
+
+#Activities a {
+    width: 22%;
+    border-radius: 25px;
+    height: 445px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 10%);
+    text-decoration: none;
+}
+
+#Activities img {
+    width: 100%;
+    height: 90%;
+    object-fit: cover;
+    border-radius: 25px 25px 0 0;
+}
+
+#Activities h3 {
+    font-size: 15px;
+    color: black;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    padding: 0 20px 0 20px;
+    margin: 0;
+    height: 8.7%;
 }
 
 footer {
