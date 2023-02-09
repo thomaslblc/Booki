@@ -537,5 +537,175 @@ footer {
 }
 
 @media screen and (max-width:768px) {
+    html body {
+        padding: 0;
+    }
 
+    header {
+        height: 10%;
+    }
+
+    #navbar {
+        display: flex;
+        flex-wrap: wrap;
+        margin-bottom: 40px;
+    }
+    
+    #navbar a {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    #navlinks {
+        width: 100%;
+    }
+
+    #navlinks a {
+        width: 50%;
+        padding-bottom: 20px;
+        font-size: 17px;
+        border-bottom: 3px solid #d9d9d9
+    }
+
+    #navlinks a:hover {
+        color: #0065fc;
+        border-top: 0;
+        border-bottom: 3px solid #0065fc;
+    }
+
+    #HeaderTitle {
+        padding-left: 20px;
+        max-width: 83%;
+        font-size: 24px;
+    }
+
+    #HeaderSubtitle {
+        padding-left: 20px;
+        margin-top: 16px;
+        font-size: 17px;
+        margin-bottom: 37px;
+    }
+
+    #SearchBar {
+        padding-left: 25px;
+        width: 94%;
+    }
+
+    #SearchText {
+        width: 70%;
+    }
+
+    #SearchButton {
+        width: 50px;
+    }
+
+    #Filters {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    #Filters p {
+        width: 100%;
+        padding-left: 20px;
+        font-size: 21px;
+    }
+    #FilterList {
+        flex-wrap: wrap;
+        font-size: 13px;
+    }
+
+    .Filter {
+        width: 42%;
+        height: 50px;
+        padding-left: 13px;
+        margin: 0;
+        margin: 0 0 15px 20px;
+        align-items: center;
+    }
+
+    .fa-money-bill-wave {
+        padding: 0;
+        padding-right: 6px;
+        font-size: 20px;
+    }
+    
+    .fa-person {
+        padding: 0;
+        padding-right: 7px;
+        font-size: 22px;
+    }
+    
+    .fa-heart {
+        padding: 0;
+        padding-right: 6px;
+        font-size: 20px;
+    }
+    
+    .fa-dog {
+        padding: 0;
+        padding-right: 5px;
+        font-size: 19px;
+    }
+
+    #info {
+        width: 90%;
+        padding-left: 20px;
+        margin: 0;
+        margin-bottom: 15px;
+    }
+
+    #ContainerHostingPopular {
+        flex-direction: column-reverse;
+    }
+
+    #Popular {
+        border-radius: 0;
+    }
+
+    #Popular article h3, #Popular article p, #Popular article span {
+        padding: 0;
+        padding: 3px 0 0 7px;
+    }
+
+    #Popular article span {
+        padding-bottom: 5px;
+    }
+
+    #Hosting {
+        background-color: white
+    }
+
+    #Popular article, #Hosting article {
+        width: 100%;
+    }
+
+    #More {
+        display: none;
+    }
+
+    #Activities {
+        padding-left: 20px;
+    }
+
+    #Activities h2 {
+        width: 50%;
+    }
+
+    #Activities a {
+        width: 95%;
+        margin-bottom: 25px;
+        height: 200px;
+    }
+
+    #Activities img {
+        height: 70%;
+    }
+
+    #Activities h3 {
+        font-size: 15px;
+        height: 23.5%;
+    }
 }
